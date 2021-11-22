@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponsiveForm</title>
+    <link rel="stylesheet" href="responsivesurveyform.css">
+</head>
+<body>
+    <div class="heading">
+    <h1>Codex Survey Form</h1>
+    <h2 id="subheading"> Thank you for taking the time to help us improve the platform</h2>
+</div>
+    <form>
+        <div id="content">
+        
+                <label for="address">Name:</label>
+                <input type="text" name="Name" id="text" placeholder="enter Name" class="box">
+                <br><br>
+        
+                <label id="email-label" for="Email">Email:</label>
+                <input type="text" name="email" id="text" placeholder="enter email " class="box" >
+                <br><br>
+            
+                <label >Age(Optional):</label>
+                <input type="number" name="Age" id="number" placeholder="enter Age" class="box">
+                <br><br>
+                <label>Which option best describes your current role?</label>
+                <br><br>
+            
+        </div>
+        <div id="option">
+            <select>
+                <option name="select your role">select your role</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="full time learner">"full time learner</option>
+                <option value="prefer not to say">prefer not to say</option>
+                <option value="other">"other</option>
+
+
+
+
+            </select>
+
+        </div>
+        <br>
+        <label id="head1">would you recommend codex to a friend</label> br
+        <br>
+        <input type="radio" name="radio" class="larger">Define <br><br>
+        <input type="radio" name="radio " class="larger">maybe <br><br>
+        <input type="radio" name="radio" class="larger">Notso <br><br>
+        <label>What is your favourite codex feature</label> <br><br>
+        <div id="option2">
+            <select>
+                <option Name="Select an option">Select an option</option>
+                <option value="Challenged">Challenged</option>
+                <option value="Project">Project</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+            </select>
+        </div>
+        <br><br>
+        <label id=head2>what would you like to see improved</label> <br><br>
+        <div id="content2">
+            <label>front end projects</label>
+            <input type="checkbox" name="checkbox" class="larger"><br><br>
+            <label>Back end project</label>
+            <input type="checkbox" name="checkbox" class="larger"><br><br>
+            <label>Data Visualisation</label>
+            <input type="checkbox" name="checkbox" class="larger"><br><br>
+            <label>Open Source</label>
+            <input type="checkbox" name="checkbox" class="larger"><br><br>
+            <label>Forums</label>
+            <input type="checkbox" name="checkbox" class="larger"><br><br>
+        </div>
+        <label id="head2">Any comments or suggestion/?</label><br><br>
+        <textarea placeholder="Enter your Comment here" cols="30" rows="10"></textarea><br><br>
+        <button><h3>Submit</h3></button>
+     
+
+    </form>
+
+</body>
+</html>
